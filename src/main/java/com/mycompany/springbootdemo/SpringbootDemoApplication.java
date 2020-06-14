@@ -21,5 +21,6 @@ public class SpringbootDemoApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         logger.info("程序启动！");
+        logger.info("更新1");
     }
 }
