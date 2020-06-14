@@ -23,5 +23,6 @@ public class SpringbootDemoApplication implements CommandLineRunner {
         logger.info("程序启动！");
         logger.info("更新1");
         logger.info("创建分支：Feature-A");
+        logger.info("分支添加！");
     }
 }
