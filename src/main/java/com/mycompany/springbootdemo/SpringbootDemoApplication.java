@@ -19,8 +19,9 @@ public class SpringbootDemoApplication implements CommandLineRunner {
     }
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args)  {
         logger.info("程序启动！");
         logger.info("更新1");
+        logger.info("创建分支：Feature-A");
     }
 }
